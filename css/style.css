@@ -1,0 +1,186 @@
+/* Fuente Montserra Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Settings */
+
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.container { 
+	margin:0 auto;
+	max-width: 1170px;
+} 
+
+.ali {
+	display: inline-block;
+	text-align: left;
+}
+
+.ald {
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+.p15 {
+	padding: 15px;
+}
+
+/* Fin Settings */
+
+/* Header */
+
+.topbar {
+	background: #000;
+	padding: 6px 15px;
+	color: #fff;
+}
+
+.telefono, .correo {
+	margin-right: 15px;
+}
+
+.logo-menu {
+	height: 90px;
+	position: relative;
+	z-index: 50;
+}
+
+.logo {
+	padding: 30px;
+	height: 30px;
+	background: #00BFF5;
+	display: inline-block;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.redes a {
+	margin-right: 15px;
+	color: #fff;
+}
+
+.banner {
+	position: relative;
+	background: url(../img/banner-bg.png) no-repeat center center;
+	background-size: cover; 
+	z-index: 40;
+}
+
+.banner:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #ED004A;
+	mix-blend-mode: multiply;
+}
+
+.menu {
+	padding: 30px;
+}
+
+.frase-bienvenida {
+	color: #fff;
+	position: relative;
+	z-index: 60;
+	padding: 200px 0px;
+}
+
+.titulo-nombre {
+	font-size: 40px;
+}
+
+.titulo-cargo {
+	font-size: 60px;
+	margin-bottom: 50px;
+	display: block;
+}
+
+
+
+.titulo-desc {
+	font-size: 30px;
+	display: block;
+	
+	margin-bottom: 30px;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 30px;
+	display: block;
+}
+
+.boton {
+	background: #00BFF5;
+	border: 2px solid #00BFF5;
+	padding: 20px 35px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	transition: .2s;
+}
+
+.boton:hover {
+	padding-right: 50px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+
+/* Fin Header */
+
+/* Contenido */
+
+.frase {
+	background: #000;
+	padding: 60px;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+.foto {
+	background: url(../img/foto-man.png) no-repeat center center;
+	background-size: cover;
+}
+
+.linea-d {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.texto-desc {
+	padding: 250px 100px;
+}
+
+.linea-d:after {
+	content: '';
+	width: 100px;
+	height: 3px;
+	background: #00BFF5;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.cont-flex {
+	background: #000;
+}
+
+.flexible {
+	display: grid;
+	grid-template-columns: 45% 55%;
+	background: #000;
+	color: #fff;
+}
+
+/* Fin Contenido */
